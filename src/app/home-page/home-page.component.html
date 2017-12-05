@@ -1,7 +1,19 @@
 <div class="container-fluid home-section">
     <div class="container">
         <div class="row">
+            <div class="col-md-6 col-md-offset-3 col-sm-12 welcome-box">
+                <h2 class="center welcome-text">Welcome to </h2>
+                <h2 class="center welcome-text-small">The School Reviewer </h2>
+                <p class="center">The Search for the right school ends here... </p>
 
+                <div class="form-group has-success has-feedback top5">
+                    <input type="text" class="form-control" id="inputSuccess2" (keyup)="liveSearch($event)" (keydown)="liveSearch($event)">
+                    <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                </div>
+                <p class="pull-right green-search"><a>Advance Search</a></p>
+
+                {{data}}
+            </div>
         </div>
     </div>
 </div>
