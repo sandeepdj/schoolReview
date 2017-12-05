@@ -1,0 +1,38 @@
+.bgcolor {
+    background-color: #95c138;
+}
+
+.top10 {
+    margin-top: 10px;
+}
+
+.btn-sign-in {
+    background-color: #008000;
+}
+
+.btn-sign-up {
+    background-color: #ce451b;
+    margin-right: 10px;
+}
+
+.btn-sign-in,
+.btn-sign-up {
+    color: #fff;
+    border-radius: 0px;
+}
+
+.footer-container {
+    border-top: 5px solid #b2b2b2;
+    background-color: #e1e1e1;
+}
+
+.quick-links {
+    list-style-type: none;
+    padding: 0px;
+    position: relative;
+    float: left;
+}
+
+.quick-links li {
+    float: left;
+}

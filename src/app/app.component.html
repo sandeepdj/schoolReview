@@ -1,20 +1,59 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{title}}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<section class="header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <img src="http://theschoolreviewer.com/img/logo.png">
+            </div>
+            <div class="col-md-6 col-sm-12">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid bgcolor top10">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <button class="btn btn-sign-in pull-right"> Sign In </button>
+                    <button class="btn  btn-sign-up  pull-right"> Sign Up </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="body">
+    <router-outlet></router-outlet>
+</section>
+<section class="footer">
+    <div class="container-fluid footer-container">
+        <div class="container">
+            <div class="row">
+                <p>
+                    <b> <u>Note :</u></b> Dear Parents, Reviewers and Contributors; we at TheSchoolReviewer.com try with utmost sincerity to provide correct data to you. In case, you find something is not working here or something is wrong; please help
+                    us by e-mailing what's wrong and what could be done about. Help us to help other people who visit our site seeking information.
+                </p>
+                <ul class="quick-links">
+                    <li>
+                        <b>Quick Links : </b>
+                    </li>
+                    <li>
+                        <a> &nbsp; About Us</a>
+                    </li>
+                    <li>
+                        <a>Contact Us</a>
+                    </li>
+                    <li>
+                        <a>Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a>Disclaimer</a>
+                    </li>
+                    <li>
+                        <a>Terms and conditions</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <p>The School Reviewer © 2015. All Rights Reserved.</p>
+    </div>
+</section>
